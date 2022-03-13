@@ -16,22 +16,10 @@ The Structure of project must be followed as shown in given picture :
 ![Screenshot (299)_2](https://user-images.githubusercontent.com/95235883/158082403-a2d71ced-54bc-4a2c-841c-cac516bd105f.png)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 ## To Send data by Post API and Get data by Get API
 By Curl or Postman
 
-Using Postman
+Using Postman    
 1.Get All Training Centers - localhost:8080/centers   
 ![Screenshot (301)_2](https://user-images.githubusercontent.com/95235883/158083063-6122e493-3faf-4073-8185-9e9927bee31c.png)
 
