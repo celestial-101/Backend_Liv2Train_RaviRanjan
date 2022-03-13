@@ -27,7 +27,7 @@ Creator:Ravi Ranjan
 
 
 
-## To Send data by Post API
+## To Send data by Post API and Get data by Get API
 By Curl or Postman
 
 1.Get All Training Centers - localhost:8080/centers in Postman.   
