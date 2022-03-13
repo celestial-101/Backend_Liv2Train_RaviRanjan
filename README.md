@@ -54,6 +54,8 @@ Add Header Content-Type to application/json, then add body as shown below to cre
    Size must be 12 .  
  2.centerName size is 40.  
  3.contactPhone size must be 10.    
+ 
+ ![Screenshot (300)_2](https://user-images.githubusercontent.com/95235883/158082886-04f0c7c1-dbc3-465a-8483-d042f34a6046.png)
 
 
 Congratulations, on creating your first Training Center.
