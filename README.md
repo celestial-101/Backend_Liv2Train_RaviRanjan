@@ -31,7 +31,10 @@ The Structure of project must be followed as shown in given picture :
 ## To Send data by Post API and Get data by Get API
 By Curl or Postman
 
-1.Get All Training Centers - localhost:8080/centers in Postman.   
+Using Postman
+1.Get All Training Centers - localhost:8080/centers   
+![Screenshot (301)_2](https://user-images.githubusercontent.com/95235883/158083063-6122e493-3faf-4073-8185-9e9927bee31c.png)
+
 2.For Creating a new Training Center - localhost:8080/create             
 Add Header Content-Type to application/json, then add body as shown below to create a Training Center :   
  {
