@@ -11,8 +11,9 @@ Creator:Ravi Ranjan
 1.Spring Tool Suite for running the application.             
 2.Postman or Curl to test url.  
 3.JavaSE-16
-## File Structure
-
+## Project Structure
+The Structure of project must be followed as shown in given picture :
+![Screenshot (299)_2](https://user-images.githubusercontent.com/95235883/158082403-a2d71ced-54bc-4a2c-841c-cac516bd105f.png)
 
 
 
@@ -32,7 +33,7 @@ By Curl or Postman
 
 1.Get All Training Centers - localhost:8080/centers in Postman.   
 2.For Creating a new Training Center - localhost:8080/create             
-Add Header Content-Type to application/json, then add body as shown in Body to create a Training Center :   
+Add Header Content-Type to application/json, then add body as shown below to create a Training Center :   
  {
  	"centerName" :"KR.Solutions",   
 "centerCode":"12cvbn749812",  
