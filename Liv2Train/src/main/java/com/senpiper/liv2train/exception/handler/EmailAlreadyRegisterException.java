@@ -1,6 +1,6 @@
 package com.senpiper.liv2train.exception.handler;
 
-public class EmailAlreadyRegisterException extends RuntimeException {
+public class CenterCodeAlreadyRegisterException extends RuntimeException {
 
 	/**
 	 * 
