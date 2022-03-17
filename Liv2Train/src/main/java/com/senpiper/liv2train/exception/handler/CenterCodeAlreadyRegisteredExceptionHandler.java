@@ -8,10 +8,10 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @RestControllerAdvice
 @EnableWebMvc
-public class CenterCodeAlreadyRegisteredExceptionHandler {
-	@ExceptionHandler(value = { CenterCodeAlreadyRegisterException.class })
+public class EmailAlreadyRegisteredExceptionHandler {
+	@ExceptionHandler(value = { EmailAlreadyRegisterException.class })
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     public InvalidExceptionResponse exceptionHandler(Exception ex) {
-    	return new InvalidExceptionResponse(600,"Center Code Already Registered");
+    	return new InvalidExceptionResponse(400,"Email Already Registered");
     }
 }
