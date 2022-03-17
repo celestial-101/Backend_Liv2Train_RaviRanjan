@@ -13,7 +13,7 @@ Creator:Ravi Ranjan
 3.JavaSE-16
 ## Project Structure
 The Structure of project must be followed as shown in given picture :
-![Screenshot (299)_2](https://user-images.githubusercontent.com/95235883/158082403-a2d71ced-54bc-4a2c-841c-cac516bd105f.png)
+![Screenshot (302)~2](https://user-images.githubusercontent.com/95235883/158782103-8641a8d2-33e0-4ce7-ac11-265077c7fdbc.png)
 
 
 ## To Send data by Post API and Get data by Get API
@@ -21,7 +21,7 @@ By Curl or Postman
 
 Using Postman    
 1.Get All Training Centers - localhost:8080/centers   
-![Screenshot (301)_2](https://user-images.githubusercontent.com/95235883/158083063-6122e493-3faf-4073-8185-9e9927bee31c.png)
+![Screenshot (304)~2](https://user-images.githubusercontent.com/95235883/158782399-d4b1b9ae-006a-4792-a34a-7482037d1563.png)
 
 2.For Creating a new Training Center - localhost:8080/create             
 Add Header Content-Type to application/json, then add body as shown below to create a Training Center :   
@@ -45,8 +45,7 @@ Add Header Content-Type to application/json, then add body as shown below to cre
    Size must be 12 .  
  2.centerName size is 40.  
  3.contactPhone size must be 10.    
- 
- ![Screenshot (300)_2](https://user-images.githubusercontent.com/95235883/158082886-04f0c7c1-dbc3-465a-8483-d042f34a6046.png)
+ ![Screenshot (303)~3](https://user-images.githubusercontent.com/95235883/158782579-45e7a25b-16ac-496b-8be5-ae9d8f376f0c.png)
 
 
 Congratulations, on creating your first Training Center.
