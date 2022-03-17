@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.senpiper.liv2train.exception.handler.CenterCodeAlreadyRegisterException;
+import com.senpiper.liv2train.exception.handler.EmailAlreadyRegisterException;
 import com.senpiper.liv2train.trainingcenter.model.TrainingCenter;
 import com.senpiper.liv2train.trainingcenter.repository.TrainingCenterRepository;
 
@@ -18,12 +18,12 @@ public class TrainingCenterService implements TrainingCenterServiceInterface {
 	TrainingCenterRepository trainingRepo ;
 	
 	public TrainingCenter createCenter(TrainingCenter trainingCenter) {
-		Optional<TrainingCenter> registered = trainingRepo.findById(trainingCenter.getCenterCode());
-		//Checking if we have a new Center Code for registration !
+		Optional<TrainingCenter> registered = trainingRepo.findById(trainingCenter.getContactEmail());
+		//Checking if we have a new email for registration !
 		if(registered.isEmpty()) {
 			return trainingRepo.save(trainingCenter);
 		}
-		else {throw new CenterCodeAlreadyRegisterException(); }		
+		else {throw new EmailAlreadyRegisterException(); }		
 	}
 	public List<TrainingCenter> getCenters(){
 		return trainingRepo.findAll();
