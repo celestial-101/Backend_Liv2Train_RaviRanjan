@@ -18,7 +18,7 @@ public class TrainingCenterService implements TrainingCenterServiceInterface {
 	TrainingCenterRepository trainingRepo ;
 	
 	public TrainingCenter createCenter(TrainingCenter trainingCenter) {
-		Optional<TrainingCenter> registered = trainingRepo.findById(trainingCenter.getContactEmail());
+		Optional<TrainingCenter> registered = trainingRepo.findById(trainingCenter.getCenterCode());
 		//Checking if we have a new Center Code for registration !
 		if(registered.isEmpty()) {
 			return trainingRepo.save(trainingCenter);
