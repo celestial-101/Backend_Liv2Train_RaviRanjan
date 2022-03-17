@@ -13,7 +13,7 @@ Creator:Ravi Ranjan
 3.JavaSE-16
 ## Project Structure
 The Structure of project must be followed as shown in given picture :
-![Screenshot (302)~2](https://user-images.githubusercontent.com/95235883/158782103-8641a8d2-33e0-4ce7-ac11-265077c7fdbc.png)
+![Screenshot (302)~3](https://user-images.githubusercontent.com/95235883/158783359-4bb63bb2-7238-41f1-8cf2-d66ca2efd7d9.png)
 
 
 ## To Send data by Post API and Get data by Get API
