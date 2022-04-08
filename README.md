@@ -12,7 +12,8 @@ Creator:Ravi Ranjan
 2.Postman or Curl to test url.  
 3.JavaSE-16
 ## Project Structure
-The Structure of project must be followed as shown in given picture :
+The Structure of project must be followed as shown in given picture :    
+
 ![Screenshot (299)_3](https://user-images.githubusercontent.com/95235883/158843165-e50c31f6-0cd6-4453-914c-6e00e155b5e7.png)
 
 
